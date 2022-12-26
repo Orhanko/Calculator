@@ -239,7 +239,7 @@ sabiranjee.addEventListener("click", function(){
             zamjenskiOperator = operator
         }else if(operator === "-" || operator === "/"){
             if(operator != zamjenskiOperator){ 
-                displayResult = operate(drugiBroj, displayResult, zamjenskiOperator)
+                displayResult = operate(displayResult, drugiBroj, zamjenskiOperator)
                 let ispis = displayResult.toString()
                 document.getElementById("result-display").innerHTML = ispis  
             }else{
