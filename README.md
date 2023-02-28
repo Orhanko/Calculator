@@ -12,7 +12,7 @@ A simple calculator with the same design as the Calculator app on newer ios devi
 
 <code>ls</code> - komanda za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo.
 
-<code>ls -la</code> - komadna za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo <bold>ukljucujuci</bold> i skrivene fajlove.
+<code>ls -la</code> - komadna za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo **ukljucujuci** i skrivene fajlove.
 
 <code>cd <code>filename</code></code> - komanda za navigiranje u određeni fajl.
 
@@ -30,6 +30,6 @@ A simple calculator with the same design as the Calculator app on newer ios devi
 
 <code>cat data.txt | sort | uniq -u</code> - komanda za ispis dijela fajla koji je unikatan, ne ponavlja se nijednom unutar fajla.
 
-$ strings data.txt I grep "sadržaj"
+<code>strings data.txt I grep "sadržaj"</code>
 
-$ base64 -d data. txt
+<code>base64 -d data. txt</code>
