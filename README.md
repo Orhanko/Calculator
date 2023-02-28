@@ -8,7 +8,7 @@ A simple calculator with the same design as the Calculator app on newer ios devi
 
 <code>ssh banditX@bandit.labs.overthewire.org -p 2220</code> - komanda za login na sever na portu 2220.
 
-<code> cat <filename> </code> # komanda za ispis fajla koju smo koristili kako bi dobili password za naredni level.
+<code>cat <code>filename</code> </code> # komanda za ispis fajla koju smo koristili kako bi dobili password za naredni level.
 
 <code>ls || ls -la</code> # komanda za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo. Dodatni dio "-la" nam ispisuje i skrivene fajlove.
 
