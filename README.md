@@ -30,6 +30,6 @@ A simple calculator with the same design as the Calculator app on newer ios devi
 
 <code>cat data.txt | sort | uniq -u</code> - komanda za ispis dijela fajla koji je unikatan, ne ponavlja se nijednom unutar fajla.
 
-<code>strings data.txt I grep "sadržaj"</code>
+<code>strings data.txt I grep <code>nekiSadrzaj</code></code> - komanda koja ispisuje tekstualni dio fajla koji se nalazi ispred unesenog sadrzaja <code>nekiSadrzaj</code>
 
-<code>base64 -d data. txt</code>
+<code>base64 -d <code>imeFajla</code></code> - komanda za ispis fajla koji sadrži base64 kodirane podatke
