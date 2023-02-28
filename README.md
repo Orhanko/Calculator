@@ -8,20 +8,23 @@ A simple calculator with the same design as the Calculator app on newer ios devi
 
 <code>ssh banditX@bandit.labs.overthewire.org -p 2220</code> - komanda za login na sever na portu 2220.
 
-<code>cat <code>filename</code></code> # komanda za ispis fajla koju smo koristili kako bi dobili password za naredni level.
+<code>cat <code>filename</code></code> - komanda za ispis fajla koju smo koristili kako bi dobili password za naredni level.
 
-<code>ls || ls -la</code> # komanda za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo. Dodatni dio "-la" nam ispisuje i skrivene fajlove.
+<code>ls</code> - komanda za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo.
 
-<code> cd <filename> </code> # komanda za navigiranje u određeni fajl.
+<code> ls -la </code> - komadna za ispis fajlova ili foldera unutar direkotrija u kojem se nalazimo <bold>ukljucujuci</bold> i skrivene fajlove.
 
-<code> $ cat < - </code> # komanda za ispis fajla pod nazviom "-".
+<code>cd<code>filename</code></code> - komanda za navigiranje u određeni fajl.
 
-<code> cat <dionaziva>\ <dionaziva>\ <dionaziva>\ <dionaziva> </code> # komanda za ispis fajla koji u imeni sadrži razmake.
-<code> find. -type f ! -executable -size <bytesize> </code> # komanda za ispis fajla za određenim specifikacijama (not executable, size of file).
+<code>cat < -</code> - komanda za ispis fajla pod nazviom "-".
 
-<code> grep "sadržajkojitražimo" <filename> </code> # komanda za ispis fajla za određenim specifikacijama (not executable, size of file).
+<code>cat <code>dioNaziva</code>\ <code>dioNaziva</code>\ <code>dioNaziva</code></code> - komanda za ispis fajla koji u imeni sadrži razmake.
 
-<code> cat data.txt | sort | uniq -u </code> # komanda za ispis dijela fajla koji je unikatan, ne ponavlja se nijednom unutar fajla.
+<code>find. -type f ! -executable -size <code>bytesize</code></code> - komanda za ispis fajla za određenim specifikacijama (not executable, size of file).
+
+<code>grep <code>"sadržajKojiTražimo"</code> <code>imeFajla</code></code> - komanda za ispis fajla za određenim specifikacijama (not executable, size of file).
+
+<code>cat data.txt | sort | uniq -u </code> # komanda za ispis dijela fajla koji je unikatan, ne ponavlja se nijednom unutar fajla.
 
 $ strings data.txt I grep "sadržaj"
 
